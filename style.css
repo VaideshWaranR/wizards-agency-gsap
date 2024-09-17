@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+.section1 {
+    height: auto;
+    width: 100%;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 25px;
+}
+nav h1{
+    font-size: 3rem;
+}
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5%;
+    border: 1px solid black;
+    background-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav button:hover {
+    background-color: black;
+    color: white;
+}
+
+nav h1 i {
+    display: inline-block;
+    transform: rotate(45deg);
+}
+
+.hero-section {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    padding: 70px 5%;
+    align-items: center;
+}
+
+.center1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.center1 h1 {
+    font-size: 3rem;
+    line-height: 1.3;
+    word-spacing: 0.05em;
+}
+
+.center1 h2 {
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 90%;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.center1 button {
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    width: 200px;
+}
+
+.center1 button:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.center2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 50px;
+}
+
+.center2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.sectionbottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sectionbottom img {
+    height: 50px;
+}
+
+.section2 {
+    height: 100vh;
+    width: 100%;
+}
+
+.section2 .services {
+    height:20vh;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    gap:20px;
+}
+
+.section2 h3 {
+    font-size: 2rem;
+    background-color: rgb(172, 255, 47);
+}
+
+.section2 p {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 80vh;
+    padding:25px;
+}
+
+.elem {
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+}
+
+.elem-part1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.elem-part1 h1 {
+    font-family: monospace;
+    background-color: greenyellow;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.elem-part1 h4 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 10px;
+}
+
+.elem-part1 h4 i {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.elem-part2 {
+    width: 100%;
+    padding: 20px;
+}
+
+.elem-part2 img {
+    width: 100%;
+    border-radius: 8%;
+    object-fit: cover;
+}
+
+.black {
+    background-color: black;
+}
+
+.black h1 {
+    background-color: white;
+    border-radius: 5%;
+}
+
+.black h4 {
+    color: white;
+}
+
+.black h4 i {
+    color: black;
+    background-color: white;
+}
+
+.black img {
+    border-radius: 20px;
+}
+
+.section3 {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.section3 .proposal {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.107);
+    height: 50%;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.section3 button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.section3 .part-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.section3 .part-1 h1 {
+    font-size: 2rem;
+}
+
+.section3 .part-1 p {
+    font-size: 1rem;
+    font-family: monospace;
+    text-align: center;
+}
+
+.section3 .part-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.section3 .part-2 img {
+    width: 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+.case-studies {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.case-studies .part1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 10%;
+}
+
+.case-studies .part1 h1 {
+    font-size: 2rem;
+    background-color: greenyellow;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.case-studies .part1 p {
+    font-size: 1rem;
+    font-family: monospace;
+    padding: 10px;
+}
+
+.case-studies .part2 {
+    width:100%;
+    height: 90%;
+    margin-top: 30px;
+    
+}
+
+.case-studies .cards {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+    height: 300px;
+}
+
+.case-studies .cards p {
+    font-size: clamp(1rem,1.5rem);
+    width: 90%;
+}
+
+.case-studies .cards h1 {
+    color: greenyellow;
+    width: 100%;
+    text-wrap: nowrap;
+}
+
+@media only screen and (min-width: 700px){
+nav .part-2{
+    display: block;
+}
+.hero-section{
+    display: flex;
+    flex-direction: row;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+}
+.services{
+    margin-left: auto;
+    margin-right: auto;
+}
+.services p{
+width: 60%;
+}
+.elem {
+    width: 40%;
+    height: 50%;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+}
+.proposal .part-2{
+    width: 40%;
+    height: 100%;
+    padding: 30px;
+}
+.case-studies parat1{
+    justify-content: none;
+    gap: 20px;
+}
+.case-studies .part2{
+    justify-content: none;
+    gap: 0;
+}
+.case-studies .cards{
+    border-radius: 0;
+}
+.case-studies .first {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.case-studies .last {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+}
+@media only screen and (max-width: 700px){
+    nav .part2{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+        height: 10%;
+    }
+    .hero-section{
+        padding: 0;
+        margin: 0;
+        height: 80vh;
+        flex-wrap: wrap;
+    }
+    .center2{
+        height: 50%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center1{
+        h1{
+            font-size:2rem;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            width: 100%;
+        }
+        width: 100%;
+        height: 50%;
+        padding: 10px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .section2{
+        height: 130%
+    }
+    .container{
+        height: 120vh;
+    }
+    .elem{
+        height: 22%;
+    }
+    .section3{
+        height: auto;
+    }
+    .proposal{
+        height: 50%;
+    }
+    .proposal .part-1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .proposal .part-2{
+   display: none;
+    }
+    .case-studies{
+        height: auto;
+    }
+    .case-studies .part2{
+        height: auto;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 500px){
+    nav .part2{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+    }
+    .section1{
+        height: 100%;
+        width: 100%;
+    }
+    .hero-section{
+        padding: 0;
+        margin: 0;
+        height: 90vh;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .center2{
+        height: 50%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .center1{
+        width: 100%;
+        height: 40%;
+    }
+    .center1 div{
+        h1{
+            font-size:25px;
+            text-align: center;
+            width: 100%;
+        }
+        h2{
+            text-align: center;
+            width: 100%;
+        }
+    }
+    .sectionbottom{
+        display: none;
+    }
+}
